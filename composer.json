@@ -20,14 +20,14 @@
     ],
     "autoload": {
         "psr-4": {
-            "RaviyaTechnical\\PivotTableGeneratorServiceProvider\\": "src/"
+            "RaviyaTechnical\\PivotTableGenerator\\": "src/"
         }
     },
     "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
-                "RaviyaTechnical\\PivotTableGeneratorServiceProvider"
+                "RaviyaTechnical\\PivotTableGenerator\\PivotTableGeneratorServiceProvider"
             ]
         }
     }

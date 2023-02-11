@@ -1,0 +1,34 @@
+{
+    "name": "raviyatechnical/laravel-pivot-table-generator",
+    "description": "Quickly generate pivot tables for your projects",
+    "keywords": [
+        "generator",
+        "php",
+        "cli",
+        "laravel",
+        "artisan",
+        "pivot",
+        "migrations"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bhargav Raviya",
+            "email": "raviyatechnical@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RaviyaTechnical\\PivotTableGeneratorServiceProvider\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RaviyaTechnical\\PivotTableGeneratorServiceProvider"
+            ]
+        }
+    }
+}
